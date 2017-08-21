@@ -1,6 +1,6 @@
 Cd Concerts Template
 ====================
 
-*Author:* Claire Bourdalé  
+**Author:** Claire Bourdalé  
 
-*Date:* 08/2017
+**Date:** 08/2017
