@@ -1,3 +1,17 @@
+/**
+ * 0 - GENERALITES
+ * 1 - HEADER
+ *
+ *
+ */
+
+
+/**
+ *
+ * 0 - GENERALITES
+ *
+ */
+
 *{
 	margin: 0;
 	padding: 0;
@@ -8,46 +22,14 @@ body{
 	font-size: 20px;
 }
 
-header{
-	width: 100%;
-	min-height: 100vh;
-	background-color: purple;
-	display: flex;
 
-	section{
-		width: 50%;
-		background-color: black;
-		color: orange;
-	}
+/**
+ *
+ * 1 - HEADER
+ *
+ */
 
-	nav{
-		width: 50%;
-		display: flex;
-		justify-content: flex-end;
-		background-color: blue;
+@import '_header.scss';
 
-		.box{
-			background-color: yellow;
-			width: 100px;
-			margin-left: 5px;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
-			text-align: center;
 
-			.icone{
-				color: green;
-			}
-
-			.texte{
-				color: black;
-				transform-origin: 0 0;
-				transform: rotate(-90deg);
-				text-transform: uppercase;
-				margin-left: 40px;
-			}
-		}
-	}
-
-}
 

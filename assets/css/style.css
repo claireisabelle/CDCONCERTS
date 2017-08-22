@@ -1,3 +1,14 @@
+/**
+ * 0 - GENERALITES
+ * 1 - HEADER
+ *
+ *
+ */
+/**
+ *
+ * 0 - GENERALITES
+ *
+ */
 * {
   margin: 0;
   padding: 0; }
@@ -6,22 +17,33 @@ body {
   background: #ccc;
   font-size: 20px; }
 
+/**
+ *
+ * 1 - HEADER
+ *
+ */
 header {
   width: 100%;
   min-height: 100vh;
-  background-color: purple;
+  background-image: url(../img/mont-bg-maquette.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex; }
   header section {
-    width: 50%;
-    background-color: black;
+    width: 60%;
+    background-color: red;
+    opacity: 0.5;
     color: orange; }
   header nav {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: flex-end;
-    background-color: blue; }
+    background-color: blue;
+    opacity: 0.5; }
     header nav .box {
       background-color: yellow;
+      opacity: 0.5;
       width: 100px;
       margin-left: 5px;
       display: flex;

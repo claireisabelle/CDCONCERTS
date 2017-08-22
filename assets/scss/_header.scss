@@ -1,0 +1,48 @@
+header{
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(../img/mont-bg-maquette.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+
+	section{
+		width: 60%;
+		background-color: red;
+		opacity: 0.5;
+		color: orange;
+	}
+
+	nav{
+		width: 40%;
+		display: flex;
+		justify-content: flex-end;
+		background-color: blue;
+		opacity: 0.5;
+
+		.box{
+			background-color: yellow;
+			opacity: 0.5;
+			width: 100px;
+			margin-left: 5px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			text-align: center;
+
+			.icone{
+				color: green;
+			}
+
+			.texte{
+				color: black;
+				transform-origin: 0 0;
+				transform: rotate(-90deg);
+				text-transform: uppercase;
+				margin-left: 40px;
+			}
+		}
+	}
+
+}
